@@ -90,3 +90,7 @@ Grafana setup
     - scrape interval: 6s
     - Query timeout: 5s
     ```
+    
+### Email template
+  
+```docker cp /Users/mchardex/Desktop/emails/alert_notification.html grafana:/usr/share/grafana/public/emails```
